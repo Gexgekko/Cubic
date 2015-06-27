@@ -2,7 +2,7 @@ var cubicApp = angular.module('cubicApp',[]);
 
 cubicApp.controller('CubicCtrl',['$scope', '$http', '$filter', function($scope,$http,$filter){
 	var vm = $scope;
-	var TAM = 100;
+	var TAM = 50;
 	vm.filas = new Array(TAM);
 
 	
